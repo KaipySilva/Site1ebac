@@ -4,16 +4,33 @@
     box-sizing: border-box;
 }
 
+header h1{
+    font-family: "Bungee Spice", sans-serif;
+}
+
+section h2{
+    font-family: "Diplomata", serif;
+
+}
+body{
+    font-family: "Bungee", sans-serif;
+}
+
 header{
     padding: 16px 0;
     background-color: #182c61;
     color: #ecf0f1;
 }
 
+header h1,
+section h2{
+    font-weight: normal;
+}
+
 header nav li{
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 14px;
 }
 header nav li a{
     color: #ecf0f1;
@@ -26,8 +43,41 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.imagens-logos img{
+    height: 24px;
+}
+
+.imagens-logos li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    color: #182c61;
+}
+
+section p{
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #182c61;
+}
+
+.frente-da-loja{
+    margin-right: 32px;
 }
