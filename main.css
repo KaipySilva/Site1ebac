@@ -8,10 +8,11 @@ header h1{
     font-family: "Bungee Spice", sans-serif;
 }
 
-section h2{
+section h2,
+section h4 {
     font-family: "Diplomata", serif;
-
 }
+
 body{
     font-family: "Bungee", sans-serif;
 }
@@ -80,4 +81,8 @@ section p{
 
 .frente-da-loja{
     margin-right: 32px;
+}
+
+.container img{
+    height: 24px;
 }
