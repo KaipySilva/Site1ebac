@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&family=Diplomata&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,16 +19,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a Loja</a>
+                        <a href="#sobre">Sobre a Loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#Contato">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="sobre">
         <div class="container">
             <img  class="frente-da-loja"  src="./img/822890e110b667a986c6fa474058f151.jpg" alt="Nossa loja física">
             <div>
@@ -53,23 +56,23 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Contato">
         <div class="container">
-            <h4>Contato</h4>
-            <div>
+            <h2>Contato</h2>
+            <div class="Metodos-Contact">
                 <div>
                     <h4>Fale Conosco</h4>
                     <form action="">
-                        <input type="text" placeholder="Seu nome">
-                        <input type="email" placeholder="Seu E-mail">
-                        <input type="tel" placeholder="Seu número">
-                        <textarea name="Sua mensagem" id="" cols="30" rows="10"></textarea>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu E-mail" required>
+                        <input type="tel" placeholder="Seu número" required>
+                        <textarea name="Sua mensagem" placeholder="Sua mensagem"></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
                 <div>
                     <h4>Nos acompanhe</h4>
-                    <ul>
+                    <ul class="Social-contato">
                         <li>
                             <a href="#" title="Siga-nós no Facebook">
                                 <img src="./img/Facebook_f_logo.jpg" alt="Logo Facebook">
@@ -94,5 +97,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Arround - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
